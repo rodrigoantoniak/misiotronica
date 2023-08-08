@@ -24,7 +24,7 @@ jobs:
 
     - name: Build
       run: |
-        npm install webpack-cli
+        npm install --save-dev webpack-cli
         npm install
         npm install --save-dev start-server-and-test
         npx start-test http://localhost:3000
