@@ -7,16 +7,27 @@ const UsuariosSlice = createSlice(
         initialState: usuarios,
         reducers:{
             agregarUsuario: (state, action) => {
-                state[state.length].id = state.length;
-                state[state.length].nombre = action.nombre;
-                state[state.length].usuario = action.usuario;
-                state[state.length].activo = true;
+                return {
+                    ...state,
+                    usuario: {
+                        id: state.length,
+                        nombre: action.payload.nombre,
+                        usuario: action.payload.usuario,
+                        activo: true
+                    }
+                }
             },
             eliminarUsuario: (state, action) => {
-                state[action.id].activo = false;
+                return state.map(usuario =>
+                    (usuario.id === action.payload.id)
+                    ? { ...usuario, activo: false }
+                    : usuario
+                );
             },
         }
     }
 )
 
-export default UsuariosSlice;
+export default UsuariosSlice.reducer;
+export const { agregarUsuario, eliminarUsuario } =
+    UsuariosSlice.actions;

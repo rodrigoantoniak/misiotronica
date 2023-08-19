@@ -7,9 +7,14 @@ const ProductosSlice = createSlice(
         initialState: productos,
         reducers:{
             agregarProducto: (state, action) => {
-                state[state.length].id = state.length;
-                state[state.length].nombre = action.nombre;
-                state[state.length].activo = true;
+                return [
+                    ...state,
+                    {
+                        id: state.length + 1,
+                        nombre: action.payload.nombre,
+                        activo: true
+                    }
+                ]
             },
             eliminarProducto: (state, action) => {
                 return state.map(producto =>
