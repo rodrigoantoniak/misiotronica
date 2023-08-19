@@ -7,15 +7,15 @@ const UsuariosSlice = createSlice(
         initialState: usuarios,
         reducers:{
             agregarUsuario: (state, action) => {
-                return {
+                return [
                     ...state,
-                    usuario: {
-                        id: state.length,
+                    {
+                        id: state.length + 1,
                         nombre: action.payload.nombre,
                         usuario: action.payload.usuario,
                         activo: true
                     }
-                }
+                ]
             },
             eliminarUsuario: (state, action) => {
                 return state.map(usuario =>
