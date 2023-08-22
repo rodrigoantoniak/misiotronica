@@ -12,6 +12,9 @@ const MenuNavegacional = () => {
                         <Link to="/venta">Venta</Link>
                     </li>
                     <li>
+                        <Link to="/catalogo">Catalogo</Link>
+                    </li>
+                    <li>
                         <Link to="/sobreNosotros">Sobre nosotros</Link>
                     </li>
                     <li>

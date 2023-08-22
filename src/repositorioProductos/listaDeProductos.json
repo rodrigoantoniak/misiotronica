@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "nombre":"Auriculares Inalambricos Bluetooth Niños Kids Hp-k20",
+        "imagen":"/assets/products/01.webp",
+        "descripcion":"En la calle, en el colectivo o en la oficina, tené siempre a mano tus auriculares Level Up y ¡escapate de la rutina por un rato! Vas a poder disfrutar de la música que más te gusta y de tus podcasts favoritos cuando quieras y donde quieras.",
+        "precio":8749
+    },
+    {
+        "id":2,
+        "nombre":"Smart TV LG 55NANO80SQA LED webOS 22 4K 55 100V/240V",
+        "imagen":"/assets/products/02.webp",
+        "descripcion":"LG es innovación y eso se ve en cada uno de sus productos tecnológicos, pensados especialmente para que tu familia y vos disfruten mucho más de la vida. Tener un televisor LG es aprovechar la más alta calidad del mercado.",
+        "precio":559999
+    },
+    {
+        "id":3,
+        "nombre":"Smart TV LG AI ThinQ 65NANO80SQA LCD webOS 22 4K 65 100V/240V",
+        "imagen":"/assets/products/03.webp",
+        "descripcion":"Con el Smart TV 65NANO80 vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.",
+        "precio":699999
+    },
+    {
+        "id":4,
+        "nombre":"Parlante Bluetooth X View Blast X2 Bateria 6hs A 8hs Tws",
+        "imagen":"/assets/products/04.webp",
+        "descripcion":"X-View X2 ofrece un sonido natural, con una gran claridad y precisión, que se dispersa de manera uniforme. Un parlante que asegura potencia y calidad por igual en la reproducción de contenidos multimedia.",
+        "precio":32299
+    },
+    {
+        "id":5,
+        "nombre":"Auriculares Inalambricos In-ear Xpods3 Bluetooth X-view",
+        "imagen":"/assets/products/05.webp",
+        "descripcion":"Características generales: Bluetooth 5.1        • Diseño ergonómico y confortable        • Liviano y Portátil        • Indicador digital de carga en estuche• Manos libres / micrófono incorporado• Parlantes 13mm• Sensibilidad 103 3dB / 32• Frecuencia: 2.402GHz 2.480GHz• Batería en auriculares: 25mAh*2• Batería en estuche: 250mAh• Tiempo de carga (auriculares): 1 hora• Tiempo de carga (estuche): 2 horas• Autonomía de hasta 5 horas(15 horas extra de autonomía con estuche)Incluye:• Auriculares Xpods3• Estuche de carga• Guía de instrucciones• Cable USB Type C",
+        "precio":10999
+    },
+    {
+        "id":6,
+        "nombre":"Convertidor Smart Tv X View Droid Box Pro 4k 2gb Ram",
+        "imagen":"/assets/products/06.webp",
+        "descripcion":"Recibí el producto que esperabas o te devolvemos tu dinero. Estamos tan seguros de la excelencia de nuestros productos que te damos 30 días para que lo pruebes. Si no estás conforme podés devolvernos el producto y te devolveremos el dinero.",
+        "precio":29999
+    },
+    {
+        "id":7,
+        "nombre":"Parlante Bluetooth Inalambrico X View Blast X1 5w Tws Ipx5",
+        "imagen":"/assets/products/07.webp",
+        "descripcion":"• Bluetooth 5.0• Potencia: 5W *1• Función TWS (conecta dos X1 en simultáneo• Protegido contra salpicaduras (IPX5)• Batería recargable: 1500mah• Función manos libres, microfono incorporado• Entrada AUX-in, USB y para tarjeta TF (micro-SD)• Formatos de soporte: MP3-WAV-WMA-FLAC -APE• Distancia de recepción BT: 10 metros máx.• Autonomía: 4-6 horas",
+        "precio":21999
+    },
+    {
+        "id":8,
+        "nombre":"Smart Tv Noblex Db58x7500 58 Led 4k Android Tv",
+        "imagen":"/assets/products/08.webp",
+        "descripcion":"PANTALLA:- TIPO DE PANTALLA: LED- TIPO DE TV: SMART TV- PULGADAS: 58- RESOLUCION DE VIDEO: 3840X2160 (4K)- CONTRASTE: 6000 : 1- BRILLO: 280 cd/m2- TIEMPO DE RESPUESTA (MS): 8 MS- FRECUENCIA DE REFRESCO (HZ): 60HZ",
+        "precio":248999
+    },
+    {
+        "id":9,
+        "nombre":"Smart Tv Philco Pld32hs21ch Led Hd 32 220v",
+        "imagen":"/assets/products/09.webp",
+        "descripcion":"Marca pionera en la industria de la tecnología y de los electrodomésticos a nivel mundial, Philco es sinónimo de calidad e innovación constante. Ofrece una amplia gama de televisores, pensados y creados para brindar el máximo confort a sus consumidores. Con el Smart TV PLD32HS21CH vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.",
+        "precio":164999
+    }
+]
